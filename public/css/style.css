@@ -1,0 +1,143 @@
+/*-------------------------------------------------------------------------------------
+CSS Reset
+-------------------------------------------------------------------------------------*/
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+html, body {
+    -moz-osx-font-smoothing: grayscale;
+}
+body,
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #121416;
+}
+p{
+    margin: 0px 0px 25px;
+}
+p iframe{
+    margin-bottom: 0px;
+}
+iframe{
+    margin-bottom: 40px !important;
+}
+
+a,
+a:hover {
+    color: #3d9862;
+    outline: none;
+    text-decoration: none !important;
+     -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.home_section1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px 20px 77px 50px;
+    border-radius: 5px;
+    height: 100%;
+}
+ .home_section2{
+    margin-top: 50px;
+    background-color: #fff;
+    margin: 20px 10% 20px 10%;
+    padding: 20px 50px 20px 50px;
+    border-radius: 5px;
+}
+.history-short-link {
+    height: 300px;
+    overflow: auto; 
+}
+.btn-action {
+    display: block;
+    height: 60px;
+}
+.logo_small_wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    padding-top: 7px;
+}
+.result-info {
+    margin-top: 20px;
+}
+.btn-space {
+    margin-left: 10px;
+    width: 115px;
+}
+.lbl-short-url {
+    background-color: #ecf7f0;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    display: block;
+    padding-left: 10px;
+}
+.container{
+    max-width: 500px;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+}
+table td, table th{
+    padding: 9px 20px;
+    border-bottom: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+}
+
+input[type='text'], input[type='tel'], input[type='password'], input[type='email'],
+input[type='url'], input[type='search'], input[type='number'] {
+    padding: 10px 25px;
+    max-width: 100%;
+    outline: none !important;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    -webkit-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 22px;
+    border-radius: 5px;
+}
+
+/*Grid layout*/
+.jl_hide_m_top .jl_home_bw{
+    padding-top: 0px;
+}
+.jl_home_bw{
+    float: left;
+    width: 100%;
+    background-color: #e4e4e2;
+}
+.jl_home_bw .row{
+    margin-bottom: 0px;
+}
+.jl_home_bw .jl_mid_main_3col, .jl_home_bw .jl_3col_wrapin, .jl_home_bw .panel-layout{
+    float: left;
+    width: 100%;
+}
